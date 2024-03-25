@@ -24,6 +24,7 @@ class Signup extends Component {
       username: this.state.username,
       password: this.state.password,
     };
+    console.log("Sign Up: ", userData.username, " ", userData.password);
   };
   render() {
     return (
